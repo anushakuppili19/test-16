@@ -1,0 +1,9 @@
+name: ci pipeline
+on: push
+jobs:
+  build_job:
+  runs-on: ubuntu-latest
+  steps:
+  - name: hello message
+    run: echo "welcome to github "
+
